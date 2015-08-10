@@ -17,15 +17,7 @@ typedef NS_ENUM(NSInteger, textFieldType){
     textFieldTypeMail       =16
 };
 
-typedef NS_ENUM(NSInteger, labelType){
-    labelTypeFirstname=20,
-    labelTypeLastname,
-    labelTypeLogin,
-    labelTypePassword,
-    labelTypeAge,
-    labelTypePhone,
-    labelTypeMail
-};
+
 @interface LoginController : UITableViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *labelMoneyAmount;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *ControlHero;

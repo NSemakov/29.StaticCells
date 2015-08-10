@@ -98,6 +98,7 @@ static NSString* settingsMoneyAmount=@"settingsMoneyAmount";
     self.sliderMoneyAmount.value=400;
     self.labelMoneyAmount.text=[NSString stringWithFormat:@"%.0f",self.sliderMoneyAmount.value];
     self.ControlHero.selectedSegmentIndex=0;
+    [self saveSetting];
 }
 
 #pragma mark -UITextFieldDelegate
