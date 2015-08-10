@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../LoginController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../LoginController.m">
+   </FileRef>
+   <FileRef
       location = "self:29. StaticCells.xcodeproj">
    </FileRef>
 </Workspace>

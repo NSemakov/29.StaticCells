@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		84EB9DE51B781BAB000E587A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB9DE41B781BAB000E587A /* main.m */; };
 		84EB9DE81B781BAB000E587A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB9DE71B781BAB000E587A /* AppDelegate.m */; };
-		84EB9DEB1B781BAB000E587A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB9DEA1B781BAB000E587A /* ViewController.m */; };
 		84EB9DEE1B781BAB000E587A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EB9DEC1B781BAB000E587A /* Main.storyboard */; };
 		84EB9DF01B781BAB000E587A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EB9DEF1B781BAB000E587A /* Images.xcassets */; };
 		84EB9DF31B781BAB000E587A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EB9DF11B781BAB000E587A /* LaunchScreen.xib */; };
 		84EB9DFF1B781BAB000E587A /* _9__StaticCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB9DFE1B781BAB000E587A /* _9__StaticCellsTests.m */; };
+		84EB9E0A1B7820C1000E587A /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB9E091B7820C1000E587A /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		84EB9DE41B781BAB000E587A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84EB9DE61B781BAB000E587A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84EB9DE71B781BAB000E587A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84EB9DE91B781BAB000E587A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84EB9DEA1B781BAB000E587A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84EB9DED1B781BAB000E587A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EB9DEF1B781BAB000E587A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84EB9DF21B781BAB000E587A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84EB9DF81B781BAB000E587A /* 29. StaticCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "29. StaticCellsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EB9DFD1B781BAB000E587A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EB9DFE1B781BAB000E587A /* _9__StaticCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9__StaticCellsTests.m; sourceTree = "<group>"; };
+		84EB9E081B7820C1000E587A /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = "29. StaticCells.xcodeproj/../LoginController.h"; sourceTree = SOURCE_ROOT; };
+		84EB9E091B7820C1000E587A /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = "29. StaticCells.xcodeproj/../LoginController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				84EB9DE61B781BAB000E587A /* AppDelegate.h */,
 				84EB9DE71B781BAB000E587A /* AppDelegate.m */,
-				84EB9DE91B781BAB000E587A /* ViewController.h */,
-				84EB9DEA1B781BAB000E587A /* ViewController.m */,
+				84EB9E081B7820C1000E587A /* LoginController.h */,
+				84EB9E091B7820C1000E587A /* LoginController.m */,
 				84EB9DEC1B781BAB000E587A /* Main.storyboard */,
 				84EB9DEF1B781BAB000E587A /* Images.xcassets */,
 				84EB9DF11B781BAB000E587A /* LaunchScreen.xib */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EB9DEB1B781BAB000E587A /* ViewController.m in Sources */,
 				84EB9DE81B781BAB000E587A /* AppDelegate.m in Sources */,
 				84EB9DE51B781BAB000E587A /* main.m in Sources */,
+				84EB9E0A1B7820C1000E587A /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
